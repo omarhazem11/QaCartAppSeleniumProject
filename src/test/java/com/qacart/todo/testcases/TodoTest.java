@@ -31,7 +31,7 @@ public class TodoTest extends BaseTest {
         Assert.assertEquals(actualTodo,"Test todo");
     }
     @Story("Delete todo.")
-    
+
     @Test (description = "Should be able to delete todo item.")
     public void ShouldBeAbleToDeleteTodo() {
         RegisterApi registerApi = new RegisterApi();
